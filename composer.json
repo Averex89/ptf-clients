@@ -1,0 +1,11 @@
+{
+    "name": "avelino/pt-clients.app",
+    "description": "Application de gestion client",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Avelino Soares"
+        }
+    ],
+    "require": {}
+}
