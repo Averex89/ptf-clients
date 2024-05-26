@@ -1,3 +1,8 @@
 <?php
 
-require_once('../app/config.php');
+use pfc\System\Router;
+
+require_once('../vendor/autoload.php');
+
+echo '<pre>';
+Router::dispatch();

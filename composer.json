@@ -1,11 +1,21 @@
 {
-    "name": "avelino/pt-clients.app",
-    "description": "Application de gestion client",
+    "name": "avelino/pfc",
+    "description": "Portefeuille de gestion client",
     "type": "project",
     "authors": [
         {
-            "name": "Avelino Soares"
+            "name": "Avelino"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "pfc\\Controllers\\":["app/controllers"],
+            "pfc\\System\\":["app/System"]
+        },
+
+        "files":[
+            "app/config.php"
+        ]
+    }
 }

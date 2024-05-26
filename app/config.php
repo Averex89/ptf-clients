@@ -1,2 +1,2 @@
 <?php
-define('APP_NAME', 'Application de gestion client');
+define('APP_NAME', 'Portefeuille de gestion client');
